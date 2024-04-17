@@ -1,0 +1,12 @@
+hello naveen kumar <br>
+ {{title}} <!--// string interpolation --> <br>
+ <p [style.background]="background">hello</p> <br><!--// property binding <br> -->
+<button (click)="change()" >hello</button> <br> <!--// event binding  -->
+
+<button  [disabled]="isdisabled"> attributebinding </button>   <!--attribute binding  --><br>
+Name : <input type="text" placeholder="username123" [(ngModel)]="username">
+{{username}}
+<app-parent></app-parent>
+
+
+

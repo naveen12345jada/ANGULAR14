@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sorting of an array</title>
+    <script>
+
+var sortingarray=["b","d","c","a"];
+console.log(sortingarray.sort()); // sort() method will sort an array alpabetically
+var sortingarray1=["5","8","1","2"];
+console.log(sortingarray1.sort());
+var sortingarray2=["65","58","19","232"]; //sort method will compare only 
+
+ console.log(sortingarray2.reverse());
+const points=[78,24, 45,90,9]
+document.write(points.sort()); //sort of an array  
+document.write("------");
+document.write(points.sort(function(a,b){ // effective way of sorting an array
+    return a-b
+}))
+
+//min element in array
+
+document.write(" min element in an array "+points[0]);
+
+//2nd min element in array 
+document.write(" 2nd min element in an array "+points[1]);
+// max element in array 
+document.write(" max element in an array "+points[points.length-1]);
+//2nd  max element in array 
+document.write(" max element in an array "+ points[points.length-2]+"---");
+//sorting of an array in descending order
+document.write(points.sort(function(a,b){ // effective way of sorting an array
+    return b-a
+}))
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

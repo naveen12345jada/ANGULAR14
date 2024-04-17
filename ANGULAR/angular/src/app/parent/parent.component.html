@@ -1,0 +1,5 @@
+<p>parent works!</p><br>
+
+<app-child (message)="recievemessage($event)"  [inputFromParent]="messagefromchild" ></app-child>
+
+<p> from Parent : {{messagefromchild}}<p>
